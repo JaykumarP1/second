@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'sites/home'
+
+  get 'sites/about'
+
+  get 'sites/contact'
+
   get 'hell/homepage'
 
   resources :blogs
