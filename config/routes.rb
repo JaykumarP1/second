@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :ports
   get 'sites/home'
 
   get 'sites/about'
